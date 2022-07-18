@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    color: #fff;
+    padding: 1.25rem;
+    background: linear-gradient(rgb(78,38,226,0.8), rgb(78,38,226,0.8)), url(/assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.description {
+   display: flex;
+   justify-content: center;
+   font-style: italic;
+}
+
+.title {
+    display: flex;
+   justify-content: center;
+}
+
+
+.survey-section {
+    display: flex;
+    flex-direction: column;
+   
+}
+.container-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 1.125rem;
+    
+}
+
+.form-info {
+    display: flex;
+    padding: 0 0 0 0.75rem;
+}
+.form-check {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-check-label {
+    padding-top: 0.65rem;
+    margin: 0 0 0 0.75rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.student-select {
+    font-size: 1.125rem;
+}
+
+#survey-form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;  
+    background-color: #1b1b32;
+    padding: 2rem; 
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    border-color: #4943f2; 
+}
+
+#name {
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: #4943f2;
+}
+
+#name-label {
+    padding: 0 0 0 0.75rem;
+}
+
+#name {
+    font-size: 1.125rem;
+}
+
+#email {
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: #4943f2;
+}
+
+#email {
+    font-size: 1.125rem;
+}
+#email-label {
+    padding: 0 0 0 0.75rem;
+}
+
+#number {
+    padding: 0.75rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+    border-color: #4943f2;
+    
+}
+
+#number {
+    font-size: 1.125rem;
+}
+
+#age-optional{
+    font-size: 1.125rem; 
+}
+#number-label {
+    padding: 0 0 0 0.75rem;
+}
+
+#dropdown {
+    padding: 0.75rem;
+    margin: 0.75rem;
+    width: 31.75rem;
+    border-radius: 0.5rem;
+    border-color: #4943f2;
+}
+
+#submit {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 1.125rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%
+    
+  }
